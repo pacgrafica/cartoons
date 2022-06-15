@@ -1,0 +1,47 @@
+/* aca incorporo reglas del boxmodel */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.caja1{
+    width: 600px;
+    height: 600px;
+    background-color: pink;
+    margin: 10px;
+    padding: 10px 60px 10px;
+    border: 2px violet solid;
+    background-image: url(/images/pantera.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+h3{
+    font-family: 'Rock Salt', cursive;
+    font-size: 5rem;
+    color: white;
+}
+h4{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3rem;
+    color: black;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 10rem;
+}
+
+.caja2{
+    width: 600px;
+    height: 600px;
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px 60px 10px;
+    border: 2px orange solid;
+    background-image: url(/images/homero.png);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
